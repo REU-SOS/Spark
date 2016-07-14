@@ -116,7 +116,7 @@ If you see:
 TaskSchedulerImpl: Initial job has not accepted any resources; check your cluster UI to ensure that workers are registered and have sufficient resources
 ```
 
-It means you're spark workers cannot connect to workers, or they have refused jobs because they do not have enough memory.
+It means you're spark master cannot connect to workers, or they have refused jobs because they do not have enough memory.
 
 
 ### REST
