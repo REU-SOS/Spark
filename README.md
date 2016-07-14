@@ -26,7 +26,7 @@ You need to add the contents of ~/keys/do.pub to digital ocean
 
 * Copy file contents into clipboard: `pbcopy < ~/keys/do.pub`
 * Add key: Your Digital Ocean profile > Security > SSH Keys
-* Give it the name, key-<IP>, which corresponds to your public IP address.
+* Give it the name, `key-<IP>`, which corresponds to your public IP address.
 
 ### AutoSpark
 
