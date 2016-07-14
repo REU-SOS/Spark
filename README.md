@@ -54,10 +54,12 @@ prompt: ssh_public_key_path:  /Users/cjparnin/keys/do.pub
 
 You should see something like...
 
+```
 Data networks: 45.55.232.179
 Data networks: 45.55.207.49
 Info: IP Address of Master 104.236.17.68
 Info: Spark Master at spark://104.236.17.68:7077
+```
 
 **Control-C program to quit...**
 
