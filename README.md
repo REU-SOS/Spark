@@ -120,19 +120,6 @@ It means you're spark workers cannot connect to workers, or they have refused jo
 ### REST
 
 You can send a rest request to cluster to submit jobs.
-
-But first, you need to set up the master so that it will use right ip address.
-
-Edit 
-
-```
-vim /spark/spark_latest/conf/spark-env.sh.template
-# Add these properties
-SPARK_LOCAL_IP=104.236.17.68
-SPARK_MASTER_IP=104.236.17.68
-mv /spark/spark_latest/conf/spark-env.sh.template /spark/spark_latest/conf/spark-env.sh
-```
-
 Now from your computer, try sending a REST request with curl.
 
 ```shell
