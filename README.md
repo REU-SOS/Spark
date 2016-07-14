@@ -71,6 +71,8 @@ Autospark will do this for you, but it is nice to see the manual part:
 cd ../Ansible/playbooks
 # Configure the master node
 ./master.sh 
+# Configure the worker nodes
+./slave.sh
 ```
 
 If you see issues connecting to slave nodes (seems to ask for password, then try this):
